@@ -33,4 +33,7 @@ function Login-AzureRmServicePrincipal([string]$TenantId, [string]$ClientId, [st
 	$credential = New-Object System.Management.Automation.PSCredential ($ClientId, $password)
 
 	Login-AzureRmAccount -ServicePrincipal -Tenant $TenantId -Credential $credential
+
+	Remove-Variable password
+	Remove-Variable credential
 }

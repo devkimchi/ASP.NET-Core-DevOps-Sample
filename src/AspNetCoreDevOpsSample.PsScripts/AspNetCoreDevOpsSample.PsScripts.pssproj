@@ -28,6 +28,7 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
+    <Compile Include="Deploy-AzureRmResourceGroup.ps1" />
     <Compile Include="New-AzureRmServicePrincipal.ps1" />
     <Compile Include="Login-AzureRmServicePrincipal.ps1" />
   </ItemGroup>
