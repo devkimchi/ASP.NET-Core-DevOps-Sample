@@ -31,6 +31,7 @@
     <Compile Include="Deploy-AzureRmResourceGroup.ps1" />
     <Compile Include="New-AzureRmServicePrincipal.ps1" />
     <Compile Include="Login-AzureRmServicePrincipal.ps1" />
+    <Compile Include="Update-PackageVersion.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
