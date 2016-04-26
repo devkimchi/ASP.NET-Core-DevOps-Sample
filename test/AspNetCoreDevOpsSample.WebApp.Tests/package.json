@@ -1,0 +1,10 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "jasmine": "2.4.1",
+    "jquery": "2.2.3",
+    "jasmine-jquery": "2.1.1"
+  }
+}

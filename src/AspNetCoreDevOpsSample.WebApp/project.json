@@ -1,5 +1,11 @@
 ﻿{
   "version": "1.0.0.0",
+  "description": "AspNetCoreDevOpsSample Web Application",
+  "authors": [ "Justin Yoo" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
   "compilationOptions": {
     "emitEntryPoint": true
   },
