@@ -1,17 +1,21 @@
 ﻿"use strict";
 
 (function (global, $) {
+    function HomeIndex() {
+        HomeIndex.init.apply(this, arguments);
+    }
+
     var changeText = function (ev) {
         var $element = $(ev.target);
         $element.text("You Sure?");
         return false;
     };
 
-    $(".btn").on("click", changeText);
-
-    var homeIndexInit = function () {
-        this.changeText = changeText;
+    HomeIndex.init = function(selector) {
+        $(selector || ".btn").on("click", changeText);
     };
 
-    global.homeIndexInit = homeIndexInit;
+    HomeIndex.changeText = changeText;
+
+    global.homeIndex = HomeIndex;
 })(window, jQuery);
