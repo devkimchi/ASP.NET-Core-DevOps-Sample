@@ -32,6 +32,7 @@
     <Compile Include="Deploy-AzureRmResourceGroup.ps1" />
     <Compile Include="New-AzureRmServicePrincipal.ps1" />
     <Compile Include="Login-AzureRmServicePrincipal.ps1" />
+    <Compile Include="Publish-Package.ps1" />
     <Compile Include="Run-JsTests.ps1" />
     <Compile Include="Run-Tests.ps1" />
     <Compile Include="Update-PackageVersion.ps1" />
