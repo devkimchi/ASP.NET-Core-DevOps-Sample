@@ -30,6 +30,7 @@
   <ItemGroup>
     <Compile Include="Build-Solution.ps1" />
     <Compile Include="Deploy-AzureRmResourceGroup.ps1" />
+    <Compile Include="Deploy-Package.ps1" />
     <Compile Include="New-AzureRmServicePrincipal.ps1" />
     <Compile Include="Login-AzureRmServicePrincipal.ps1" />
     <Compile Include="Publish-Package.ps1" />
